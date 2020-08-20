@@ -12,6 +12,9 @@ namespace Listas
             vLista.Add("Alex");
             vLista.Add("Bob");
             vLista.Add("Ana");
+            vLista.Add("Gizelda");
+            vLista.Add("Poliana");
+            vLista.Add("Adriane");
             vLista.Insert(2, "Marco");
 
 
@@ -30,6 +33,9 @@ namespace Listas
 
             // Matriz
             double[,] vMatriz = new double[2, 3]; // 2 linhas e 3 colunas
+
+            // teste github
+            Console.WriteLine("alteração para o github");
         }
     }
 }

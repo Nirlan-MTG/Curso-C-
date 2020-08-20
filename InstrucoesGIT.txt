@@ -1,0 +1,15 @@
+git status
+git status add .
+git commit -m "descricao"
+git log --oneline
+
+-- voltar commit
+git clean -df
+git checkout --
+
+
+-- Associar o repositorio local ao remoto
+git remote add origin https://github.com/Nirlan-MTG/Curso-C-.git
+
+-- gravar no remoto
+git push -u origin master
